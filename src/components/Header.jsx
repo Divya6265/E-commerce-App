@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { FaBars } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
-import Product from '../Components/Product';
+import Product from '../components/Product';
 import { Link } from 'react-router-dom';
 
 function Header({products}) {
