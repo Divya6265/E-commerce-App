@@ -6,11 +6,5 @@ export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.png', '**/*.jpeg',],
   publicDir: 'public',
-  css: {
-    preprocessorOptions: {
-      scss: {
-        implementation: sass,
-      },
-    },
-  },
+
 })
